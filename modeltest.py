@@ -6,9 +6,9 @@ import glob
 import time
 import torch
 
-DETECTOR_PATH = 'GTSDBdataset/runs/detect/GTSDB_YOLO26_Project-4/weights/best.pt'
-CLASSIFIER_PATH = 'GTSRBdataset/runs/detect/GTSRB_Train-2/weights/best.pt'
-SOURCE_PATH = 'testImages/3.mp4' 
+DETECTOR_PATH = 'GTSDB.pt'
+CLASSIFIER_PATH = 'GTSRB.pt'
+SOURCE_PATH = 'traffic-sign-test.mp4' 
 
 RECORD_DIR = 'RunsRecordings'
 os.makedirs(RECORD_DIR, exist_ok=True)

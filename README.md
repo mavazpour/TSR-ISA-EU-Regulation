@@ -26,22 +26,6 @@ The models were trained and evaluated utilizing the Google Colab Pro platform eq
 
 ---
 
-## Repository Structure
-
-```
-├── assets/                  # Diagrams, HUD visual assets, and performance plots
-├── src/
-│   ├── preprocessing.py     # Adaptive Histogram Equalization and spatial normalization
-│   ├── train_localization.py# YOLO26m localization training script (GTSDB configuration)
-│   ├── train_classification.py# YOLO26m semantic classification training script (GTSRB configuration)
-│   ├── inference_pipeline.py# sequential execution pipeline and temporal verification
-│   └── driver_hud.py        # Real-time Head-Up Display telemetry interface
-├── requirements.txt         # Dependencies and execution environment boundaries
-└── README.md                # Project documentation
-```
-
----
-
 ## Key Features Implemented
 
 * NMS-Free Prediction Head: Integrates the direct bounding box regression architecture of YOLO26 to eliminate Non-Maximum Suppression (NMS) latency overhead.

@@ -24,8 +24,6 @@ The models were trained and evaluated utilizing the Google Colab Pro platform eq
 | Stage 1: Localization (GTSDB) | 0.888 | 0.914 | 0.970 |
 | Stage 2: Classification (GTSRB) | 0.942 | 0.921 | 0.950 |
 
-The raw inference speed of 5.7 ms during the localization phase guarantees that the complete perception pipeline operates well within the 2.0-second legal execution window specified by Article 3.4.2.2.1 of Commission Delegated Regulation (EU) 2021/1958.
-
 ---
 
 ## Repository Structure

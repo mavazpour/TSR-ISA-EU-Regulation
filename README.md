@@ -20,7 +20,7 @@ The perception system is divided into two distinct sequential vision stages to f
 The models were trained and evaluated utilizing the Google Colab Pro platform equipped with an NVIDIA A100-SXM4-40GB GPU. The quantitative metrics captured from the best validation checkpoints are structured below:
 
 | Pipeline Stage / Dataset | Precision (P) | Recall (R) | mAP50 |
-| :--- | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: |
 | Stage 1: Localization (GTSDB) | 0.888 | 0.914 | 0.970 |
 | Stage 2: Classification (GTSRB) | 0.942 | 0.921 | 0.950 |
 

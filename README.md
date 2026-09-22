@@ -1,4 +1,6 @@
 # Traffic Sign Recognition and EU Regulations on Intelligent Speed Assistance
+![demo](assets/demo.gif)
+
 
 This repository contains the official implementation of a real-time, two-stage Traffic Sign Recognition (TSR) pipeline engineered to align with the safety mandates and latency constraints governed by European Union regulations.
 
